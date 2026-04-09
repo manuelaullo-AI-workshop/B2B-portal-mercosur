@@ -1,0 +1,22 @@
+name: admin_portal
+description: Admin portal app
+publish_to: none
+version: 0.1.0+1
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  app_shell:
+    path: ../../packages/app_shell
+  auth:
+    path: ../../packages/auth
+  feature_flags:
+    path: ../../packages/feature_flags
+  admin_console:
+    path: ../../packages/admin_console
+
+flutter:
+  uses-material-design: true

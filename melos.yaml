@@ -1,0 +1,13 @@
+name: b2b_portal_mercosur
+repository: https://github.com/manuelaullo-AI-workshop/B2B-portal-mercosur
+packages:
+  - apps/**
+  - packages/**
+
+scripts:
+  bootstrap:
+    run: melos bootstrap
+  analyze:
+    run: melos exec -- "fvm flutter analyze"
+  test:
+    run: melos exec -- "fvm flutter test"
