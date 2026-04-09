@@ -1,0 +1,10 @@
+name: feature_flags
+description: feature_flags package
+version: 0.1.0
+publish_to: none
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  collection: ^1.18.0
+  riverpod: ^2.5.1

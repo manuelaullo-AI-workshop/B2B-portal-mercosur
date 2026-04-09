@@ -1,0 +1,7 @@
+name: b2b_portal_mercosur_workspace
+publish_to: none
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dev_dependencies:
+  melos: ^6.2.0
